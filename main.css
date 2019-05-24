@@ -1,0 +1,192 @@
+#title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Futura";
+    border-bottom: solid 2px #000000;
+    padding-bottom: 5px;
+  }
+  
+  html,
+  body {
+    background-color: #ffb6c1;
+    text-align: center;
+    font-family: "futura";
+    margin-bottom: 50px;
+  }
+  /*this is for the form itself*/
+  #outter-form {
+    background-color: #d3d3d3;
+    width: 75%;
+    margin: 50px auto;
+    padding: 60px 50px 100px 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(50, 0, 0, 0.9);
+  }
+  
+  #description {
+    margin-bottom: 20px;
+  }
+  
+  #name {
+    margin: 0 20px 20px 19px;
+    width: 250px;
+    height: 30px;
+    border: solid 0.5px;
+    border-radius: 5px;
+    padding-left: 5px;
+  }
+  
+  #name-label {
+    position: relative;
+    left: -5px;
+  }
+  
+  #email {
+    margin: 0 20px 20px 25px;
+    width: 250px;
+    height: 30px;
+    border: solid 0.5px;
+    border-radius: 5px;
+    padding-left: 5px;
+  }
+  
+  #number {
+    margin: 0 20px 20px 34px;
+    width: 250px;
+    height: 30px;
+    border: solid 0.5px;
+    border-radius: 5px;
+    padding-left: 5px;
+  }
+  
+  #number-label {
+    position: relative;
+    left: 9px;
+  }
+  
+  /*this is for the label that asks about higher level of education*/
+  #level {
+    position: relative;
+    left: -276px;
+  }
+  
+  #dropdown {
+     height: 30px;
+    width: 140px;
+    padding: 5px;
+    margin: 0px 0px 20px 0px;
+    position: relative;
+    bottom: 22px;
+    left: -25px;
+    border: solid 0.5px;
+  }
+  
+  /*this is for the question for the radios*/
+  #opinion {
+    position: relative;
+    left: -265px;
+  }
+  
+  .radios {
+    text-align: justify;
+    position: relative;
+    left: 390px;
+    bottom: 36px;
+  }
+  
+  /*this is for the first set lists*/
+  .list-button {
+    position: relative;
+    list-style: none;
+  }
+  
+  /*this is for the headline of the checkboxes*/
+  #majors {
+    position: relative;
+    right: 290px;
+  }
+  
+  /*this is for the (check all that applies)*/
+  #check {
+    position: relative;
+    left: 15px;
+    margin-top: auto;
+  }
+  
+  /*this is for the checkboxes themeslves*/
+  .checkbox1 {
+   position: relative;
+    bottom: 115px;
+    right: 110px;
+  }
+  
+  /*this is for the second set of lists*/
+  .list-checkbox {
+    position: relative;
+     bottom: 135px;
+    left: 420px;
+    list-style: none;
+    text-align: justify;
+  }
+  
+  #text-area {
+    position: relative;
+    bottom: 100px;
+    left: 29px;
+    padding-left: 5px;
+    border: solid 0.5px;
+    border-radius: 5px;
+  }
+  
+  /*this is for (additional thoughts)*/
+  #final-thoughts {
+    position: relative;
+    bottom: 148px;
+    left: -35px;
+  }
+  
+  #submit {
+    position: relative;
+    left: -46px;
+    bottom: 75px;
+    width: 70px;
+    height: 35px;
+    border: solid #800020 0.5px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #ffb6c1;
+    color: #800020;
+  }
+  
+  @media (max-width: 700px) {
+    html, body {
+      position: absolute;
+      display: block;
+      text-align: justify;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    #outter-form {
+      position: relative;
+      display: block;
+      text-align: justify;
+    }
+    
+    #survey-form {
+      display: block;
+      text-align: justify;
+    }
+    #level {
+      position: absolute;
+      left: 100px;
+      text-align: justify;
+      display: block;
+      
+    }
+    
+    .list-button {
+      float: right;
+    }
+  }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title"><b>Survey Form</b></h1>
+<div id="outter-form">
+  <p id="description">State some suggetions on how to improve education in the United States</p>
+  <form id="survey-form">
+
+    <label id="name-label" for="name">* Name: </label>
+
+    <input type="text" name="name" id="name" placeholder="Enter your name..." required></br>
+
+    <label id="email-label" for="name">* Email: </label>
+
+    <input type="email" name="email" id="email" placeholder="Enter your email..." required></br>
+
+    <label id="number-label" for="age">* Age: </label><input type="number" name="age" id="number" placeholder="Choose your age..." min="1" max="125" required></br>
+
+    <label for="degree" id="level">* What is your highest level of education?</label>
+
+    <div class="dropdown-menu">
+      <select id="dropdown" name="degree">
+  <option disabled value>Choose an option</option>
+  <option value="deploma">High school deploma</option>
+  <option value="associats">Associate's degree</option>
+  <option value="bachelors">Bachelor's degree</option>
+  <option value="masters">Master's degree</option>
+  <option value="doctoral">Doctoral degree</option>
+  <option value="profesional">Profesional degree</option>
+</select>
+    </div>
+    <label id="opinion">What is the best solution in your opinion?</label>
+    <div class="radios">
+      <ul id="list">
+        <li class=list-button><label><input type="radio" name="radio-buttons" value="1"> Make education free in all levels</label></li>
+        <li class=list-button><label><input type="radio" name="radio-buttons" value="2"> Or lower the tuition fees significantly</label></li>
+        <li class=list-button><label><input type="radio" name="radio-buttons" value="3"> Pay teachers more to motivate them to do better</li>
+    <li class=list-button><label><input type="radio" name="radio-buttons" value="4"> Or at least help students with books and other needs</li>
+    <li class=list-button><label><input type="radio" name="radio-buttons" value="5" id="waste"> Take some FCC courses and</br>you will do good</li>
+  </ul>
+</div>
+<label for="list" id="majors">What are the majors that you think</br> are worth the time and money?<p id="check">(Check all that applies)</p></label></br>
+          <ul id="list">
+            <input type="checkbox" name="medschool" value="1" class="checkbox1">
+            <li class="list-checkbox">Med School</li>
+            <input type="checkbox" name="pharmacology" value="2" class="checkbox1">
+            <li class="list-checkbox">Pharmacology</li>
+            <input type="checkbox" name="nursing" value="3" class="checkbox1">
+            <li class="list-checkbox">Nursing</li>
+            <input type="checkbox" name="criminal-justice" value="4" class="checkbox1">
+            <li class="list-checkbox">Criminal Justice</li>
+            <input type="checkbox" name="culinary-school" value="5" class="checkbox1">
+            <li class="list-checkbox">Culinary School</li>
+            <input type="checkbox" value="6" class="checkbox1">
+            <li class="list-checkbox">None Of The Above</li>
+          </ul>
+<label for="text-area" id="final-thoughts">Additional thoughts:</label><textarea id="text-area" cols="50" rows="4" placeholder="Express your additional thoughts..." name="thoughts"></textarea>
+
+          <button type="submit" name ="submit"id="submit">Submit</button>
+
+  </form>
+  </div>
+<footer>&copy; Designed and coded by Karkan Alzwayed</footer>
+</body>
+</html>
